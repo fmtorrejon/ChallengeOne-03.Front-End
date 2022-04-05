@@ -1,0 +1,83 @@
+/*reset basico*/
+
+/*containers*/
+.formulario-contacto{
+    background-color: #EAF2FD;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+.contact-img{
+    display:block;
+    width: 464px;
+    height: 570px;
+}
+
+.contact-text{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 32px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contact-subtext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.contacto-input{
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 4px;
+    height: 56px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.contacto-input:focus{
+    border-bottom: solid 2px #2A7AE4;
+}
+.contacto-input::placeholder{
+    color: #2A7AE4;
+}
+
+.contacto-textarea{
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 4px;
+    margin: 10px 0px;
+    height: 96px;
+    width: 100%;
+}
+
+.contacto-textarea::placeholder{
+    color: #2A7AE4;
+}
+
+.contacto-boton{
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #2A7AE4;
+    color: white;
+    margin: 25px 0;
+}
+
+.envio{
+    color: green;
+    list-style-type: none;
+}
+

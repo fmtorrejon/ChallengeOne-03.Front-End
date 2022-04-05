@@ -1,0 +1,73 @@
+
+/*pasatiempos-y-habilidades-blandas*/
+.pasatiempos-y-habilidades {
+    height: 664px;
+    
+}
+.habilidades{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 88px;
+    
+}
+.habilidades__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+
+.habilidad__iten{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding:1rem;
+    margin: 0.5rem;
+    background: #ffffff;
+    width: 176px;
+    height: 176px;
+    
+}
+
+.pasatiempos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 88px;
+}
+
+.pasatiempos__titulo, .habilidades__titulo {
+    justify-content: center;
+    font-family: Raleway;
+    font-weight: 700, Bold;
+    font-size: 32px;
+    Line-height: 38px; 
+    text-align: Center;
+}
+.pasatiempos__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 2rem;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.pasatiempo__iten{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding:1rem;
+    margin: 0.5rem;
+    background: #ffffff; 
+    width: 176px;
+    height: 176px;
+
+}

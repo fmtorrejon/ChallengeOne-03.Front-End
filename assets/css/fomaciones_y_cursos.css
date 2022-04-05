@@ -1,0 +1,47 @@
+.fomaciones-y-cursos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #EAF2FD;
+    height: 581px;
+    
+}
+
+.formaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    margin: 0 16px;
+}
+
+.formaciones-titulo {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+
+.formacion-imagen{
+    background: #ffffff;
+    height: 220px;
+    width: 400px;
+    
+}

@@ -1,0 +1,254 @@
+/*.acercaDeMi {
+    display: block;
+}*/
+
+.hola__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+    
+    height: 368px;
+    left: 152px;
+    top: 120px;
+    
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 152px;
+}
+
+.hola__iten{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+list-style-type: none;
+
+width: 751px;
+height: 333px;
+left: 0px;
+top: 17.5px;
+gap:24px;
+
+/* Inside auto layout */
+
+order: 0;
+flex-grow: 0;
+
+}
+
+.hola__foto{
+    background: url(../assets/img/foto-ejemplo-figma.png) no-repeat center / cover;
+    width: 368px;
+    height: 368px;
+    top: 0px;
+      
+    /* Inside auto layout */
+    
+    order: 1;
+    flex-grow: 0;
+  
+}
+
+.hola__titulo{
+    width: 751px;
+    height: 183px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+    /* Inside auto layout */
+
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0 0;
+    }
+
+.hola__descripcion{
+    width: 751px;
+    height: 78px;
+    left: 0px;
+    top: 207px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    /* Preto/100% */
+
+    color: #464646;
+
+
+    /* Inside auto layout */
+
+    align-self: stretch;
+    flex-grow: 0;
+    
+    }
+
+.hola__redesLink--lista{
+   /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+
+    position: static;
+    width: 467px;
+    height: 24px;
+    left: 0px;
+    list-style-type: none;
+
+    /* Inside auto layout */
+ 
+    order: 2;
+    flex-grow: 0;
+    
+}
+
+.hola__redLink{
+    padding:1rem;
+    margin: 0.5rem;
+}
+
+.hola__redLink img{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 73px;
+    top: 2px;
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.sobreMi{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+
+    position: static;
+    width: 100;
+    height: 383px;
+    left: 0px;
+    top: 520px;
+
+    /* Azul/10% */
+
+    background: #EAF2FD;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+ 
+}
+
+.sobreMi__titulo{
+    /* Sobre mi */
+width: 137px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+    
+}
+
+.sobreMi__descripcion{
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    top: 54px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin: 16px 0;
+    text-align: left;
+    
+    /* Preto/100% */
+    
+    color: #464646;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.sobreMi__firma{
+    position: static;
+    width: 140px;
+    height: 52px;
+    left: 0px;
+    top: 203px;
+
+    background-image: url(../img/firma-ejemplo-figma.png);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
