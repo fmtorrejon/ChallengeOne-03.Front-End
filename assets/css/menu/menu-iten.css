@@ -5,3 +5,52 @@
 .menu-iten:last-child .menu-link {
     margin-right: 0;
 }
+
+@media screen and (max-width:768px){
+    
+    
+    .menu-iten {
+        display: none;
+    }
+    .menu-iten:nth-child(6) {
+        
+        display: contents;flex-direction: row;
+        
+    }
+}
+
+
+@media screen and (max-width:412px){
+    .logo {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: flex-end; */
+        margin-top: 16px;
+        /* margin-right: 180px; */
+        width: 206px;
+        height: 25px;
+    margin-left: 16px;}
+
+    .menu-lista {
+        width: 168px;
+        height: 19px;
+    }
+
+    .menu-link.activo {
+        /* align-items: center; */
+        margin-top: 20px;
+        /* height: 64px; */
+        /* width: 360px; */
+        font-size: 16px;
+        line-height: 18.78px;
+    margin-left: 26px;}
+
+    .menu-iten {
+        width: 140px;
+        height: 16px;
+    margin-left: 0;padding: 0;}
+
+    .menu-iten:nth-child(6){
+        display:contents;
+    }
+}

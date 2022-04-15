@@ -81,3 +81,30 @@
     list-style-type: none;
 }
 
+@media screen and (max-width:768px){
+    .formulario-contacto{
+        height: 637px;
+        width: 768px;
+    }
+    .contact-img {
+        display: none;
+    }
+
+    .contact-text{
+        width: 704px;
+        padding: 32px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .formulario-contacto{
+        width: auto;
+        height: auto;
+    }
+
+    .contact {
+        padding: 0;
+    }
+
+
+}

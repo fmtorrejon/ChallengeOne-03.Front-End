@@ -1,254 +1,373 @@
-/*.acercaDeMi {
-    display: block;
-}*/
-
-.hola__container{
+.hola__marco {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;/* margin-left: 84px; */
+    /*justify-content: center;
+width: 100%; */position: relative;margin: 32px auto;}
+.hola__container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 100%;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
     list-style-type: none;
-    
     height: 368px;
-    left: 152px;
     top: 120px;
-    
     order: 1;
     flex-grow: 0;
-    margin: 0px 152px;
+    flex-shrink: 1;
 }
 
-.hola__iten{
-    /* Auto layout */
+.hola__iten {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    list-style-type: none;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-list-style-type: none;
-
-width: 751px;
-height: 333px;
-left: 0px;
-top: 17.5px;
-gap:24px;
-
-/* Inside auto layout */
-
-order: 0;
-flex-grow: 0;
-
+    width: 751px;
+    height: 333px;
+    top: 17.5px;
+    position: absolute;left: 32px;/* margin: 0px 0px; */gap: 0px;
+    order: 0;
+    flex-grow: 0;
 }
 
-.hola__foto{
-    background: url(../assets/img/foto-ejemplo-figma.png) no-repeat center / cover;
+.hola__foto {
+    display: flex;
+    flex-shrink: 3rem;
+    background: url(../img/Fer-4x4.jpg) no-repeat center / cover;
     width: 368px;
     height: 368px;
     top: 0px;
-      
-    /* Inside auto layout */
-    
     order: 1;
     flex-grow: 0;
-  
-}
+    border-radius: 50%;
+    
+    
+margin: 0 32px;right: 12px;}
 
-.hola__titulo{
+.hola__titulo {
     width: 751px;
     height: 183px;
-    left: 0px;
-    top: 0px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
-
-    /* Preto/100% */
-
     color: #464646;
-
-    /* Inside auto layout */
-
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 0 0;
-    }
+    flex-shrink: 1;
+    margin: 0px 0;
+}
 
-.hola__descripcion{
+.hola__descripcion {
     width: 751px;
     height: 78px;
     left: 0px;
     top: 207px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-
-    /* Preto/100% */
-
     color: #464646;
-
-
-    /* Inside auto layout */
-
-    align-self: stretch;
+    align-self: center;
     flex-grow: 0;
     
-    }
 
-.hola__redesLink--lista{
-   /* Auto layout */
+margin: 16px 0 16px;}
 
+.hola__redesLink--lista {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     padding: 0px;
-
     position: static;
     width: 467px;
     height: 24px;
     left: 0px;
-    list-style-type: none;
-
-    /* Inside auto layout */
- 
+    /*list-style-image: url("../img/flecha.png");
+    list-style-position: inside;*/
+    list-style: none;
     order: 2;
     flex-grow: 0;
-    
+    flex-shrink: 1;
+
+margin: 0px 85px;}
+
+.hola__redLink {
+    padding: 1rem;
+    margin: -11px 0px;
+height: 3px;text-align: center;}
+
+.hola__redLink__marco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
 }
 
-.hola__redLink{
-    padding:1rem;
-    margin: 0.5rem;
-}
+.flecha {
+    background-image: url("../img/flecha.png");
+    position: static; 
+    width: 24px; 
+    height: 24px; 
+    /* top: 1px; */ 
+    order: 0; 
+    flex-grow: 0; 
+    margin: 0px 0px; 
+    align-items: baseline;
+    border-color: lightgray solid;}
 
-.hola__redLink img{
-    position: static;
-    width: 24px;
-    height: 24px;
-    left: 73px;
-    top: 2px;
-    
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 4px;
-}
-
-.sobreMi{
-    /* Auto layout */
+.sobreMi {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 64px;
-
-    position: static;
-    width: 100;
+    /* padding: 64px; */
     height: 383px;
-    left: 0px;
-    top: 520px;
-
-    /* Azul/10% */
-
     background: #EAF2FD;
-
-    /* Inside auto layout */
-
-    flex: none;
     order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 32px 0px;
- 
-}
-
-.sobreMi__titulo{
-    /* Sobre mi */
-width: 137px;
-height: 38px;
-left: 0px;
-top: 0px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 38px;
-/* identical to box height */
-
-
-/* Preto/100% */
-
-color: #464646;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 16px 0px;
+    /* flex-grow: 0; */
+    /* flex-shrink: 1; */
     
+/* position: relative; *//* left: 32px; *//* top: auto; */margin: 0 auto;/* width: 100%; */justify-content: center;}
+
+.sobreMi__container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 290px;
+    /* align-items: flex-start; */
+    /* position: relative; *//* left: -220px; */margin: auto 32px;
+    
+    /* padding: 32px 32px 0; */
 }
 
-.sobreMi__descripcion{
-    width: 751px;
+.sobreMi__titulo {
+    /* width: 137px; */
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    order: 0;
+   
+  
+
+}
+
+.sobreMi__descripcion {
+    /* align-items: center; */width: 751px;
     height: 133px;
-    left: 0px;
-    top: 54px;
-    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
     margin: 16px 0;
-    text-align: left;
-    
-    /* Preto/100% */
-    
+    text-align: start;
     color: #464646;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
     order: 1;
-    flex-grow: 0;
-    margin: 16px 0px;
+    
+  
 }
 
-.sobreMi__firma{
-    position: static;
+.sobreMi__firma {
     width: 140px;
     height: 52px;
-    left: 0px;
     top: 203px;
-
     background-image: url(../img/firma-ejemplo-figma.png);
-
-    /* Inside auto layout */
-
-    flex: none;
     order: 2;
-    flex-grow: 0;
-    margin: 16px 0px;
 }
 
+@media screen and (max-width:820px){
+    .hola__marco {
+        display: inline-flex;
+        align-items: start;
+        margin: 0px 16px;
+        height: 210px;
+    }
+
+    .hola__container{
+        
+        width: 768px;
+        height: 210px;
+        align-items: flex-start;
+        justify-content: space-between;/* margin-bottom: 0; */
+    /* margin-left: unset; */position: relative;top: 0px;}
+    
+        .hola__foto {
+        width: 146px;
+        height: 146px;
+        
+    margin-right: 46px;position: relative;}
+   
+    .hola__iten{
+        width: 524px;
+        height: 130px;
+    position: relative;/* gap: 23px; */order: 1;left: 32px;margin: -18px -16px;}
+
+    .hola__titulo {
+        font-size: 22px;
+        width: 524px;
+        height: 52px;
+        line-height: 26px;
+    margin: 8px 0;}
+    .hola__descripcion {
+        font-size: 16px;
+        width: 524px;
+        height: 38px;
+        line-height: 19px;
+        margin: 0px;
+    }
+
+    .hola__redesLink--lista{
+        /* margin-top: 16px; */
+    position: relative;margin: 52px 0px;}
+
+    .sobreMi {
+        height: 286px;
+        width: 768px;
+        /* padding: 0 0 0 0; */
+        
+
+    }
+    .sobreMi__container{
+        justify-content: center;
+        height: 286px;
+        padding: 0 0 0 0;
+    margin: -9px 0;}
+
+    .sobreMi__titulo{
+        font-size: 22px;
+        margin-left: 24px;
+    margin: 0px 32px;}
+    .sobreMi__descripcion{
+        top: 42px;
+        font-size: 14px;
+        line-height: 16px;
+        width: 704px;
+        text-align: flex-start;
+        margin-left: 32px;
+        
+        
+    }
+    .sobreMi__firma {
+        width: 140px;
+        height: 52px;
+        /* top: 142px; */
+        
+    margin: 0px 34px;}
+}
+
+@media screen and (max-width:412px){
+    .acercaDeMi {
+        width: 100%;
+        height: 644px;
+    margin-top: 0px;padding-top: 9px;/* margin: auto; */}
+
+    .hola__container{
+        position: relative;top: 0px;display: flex;
+        flex-direction: column;
+        width: 360px;
+        height: 296px;
+        justify-content: center;
+        align-items: flex-start;
+        /* padding: 16px 16px; */}
+
+    .hola__marco {
+        position: relative;top: 0px;height:294px;
+        width: 360px;
+        display: flex;
+        
+    /* margin: 0 auto; */}
+    .hola__foto {
+        height: 98px;
+        width: 98px;
+        order: 0;
+    margin: 0px 16px;position: relative;top: -60px;/* padding: 0px; *//* display: flex; *//* align-items: self-start; *//* justify-content: flex-start; */}
+
+    .hola__titulo {
+        width: 328px;
+        height: 52px;
+        font-size: 22px;
+        Line-height: 25.83px; 
+        margin: -26px -16px;order: 1;
+
+    }
+
+    .hola__descripcion {
+        font-size: 14px;
+        Line-height: 16.44px;
+        order: 2;
+    width: 328px;margin-top: 54px;margin-bottom: 0px;margin-left: -32px;}
+
+    .hola__redesLinks--nav{
+        display: flex;order: 3;
+        width: 328px;
+    flex-direction: row;justify-content: space-around;text-align: center;margin-top: -16px;margin: -15px;}
+
+    .hola__redesLink--lista{
+        width: 328px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-start; */
+        text-align: center;margin-left: 0px;
+    gap: 2px;}
+
+    .hola__redLink {
+        /* padding: 29px; */font-size: 14px;
+    height: 16px;
+    width: 100%;
+    margin: 0px 0px 0 0px;
+    gap: 0px;position: relative;left: -15px;}
+
+    .flecha {
+        display: flex;margin-left: -21px;
+        /* flex-shrink: 0; */height: 16px;
+        width: 16px;
+    /* align-items: center; *//* justify-content: center; */}
+
+    .hola__iten {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style-type: none;
+    
+        width: 328px;
+        height: 148px;
+        top: 0px;
+        gap: 0px;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .sobreMi {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    height: 350px;}
+
+    .sobreMi__container{
+        /* display: flex; *//* flex-direction: column; */width: 100%;
+        height: 350px;
+        
+    /* margin: 0px 0px; *//* padding: 0; */}
+
+    .sobreMi__titulo {
+        /* padding: 16px; */
+    position: relative;top: 0px;left: 0px;}
+
+    .sobreMi__descripcion { 
+        
+    width: 328px;height: 208px;/* margin-left: 24px; */margin: 0px 16px;/* top: -3px; */position: relative;top: 0px;}
 
 
 
-
-
-
-
-
-
-
+}

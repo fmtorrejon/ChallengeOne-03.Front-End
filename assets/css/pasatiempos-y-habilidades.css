@@ -24,6 +24,8 @@
 
 
 .habilidad__iten{
+    border: 0.2rem lightgray solid;
+    border-radius: 5%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -40,7 +42,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: 88px;
+    /* margin: 88px; */
 }
 
 .pasatiempos__titulo, .habilidades__titulo {
@@ -61,6 +63,8 @@
 }
 
 .pasatiempo__iten{
+    border: 0.2rem lightgray solid;
+    border-radius: 5%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -69,5 +73,83 @@
     background: #ffffff; 
     width: 176px;
     height: 176px;
+    
 
 }
+
+@media screen and (max-width:768px){
+    .pasatiempos-y-habilidades {
+    height: 780px;
+    padding-top: 0px;
+    
+margin-left: 10px;gap: -13px;}
+    .pasatiempos__titulo, .habilidades__titulo {
+        height: 26px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 25.83px;
+        margin: 0px 0px 0px 0px;
+        
+    margin-bottom: 32px;/* text-align: center; *//* justify-content: center; */}
+    .pasatiempos, .habilidades{
+        height: 390px;
+        width: 768px;margin: 0px -16px;
+        justify-content: flex-start;
+       
+    padding-top: 32px;}
+    .pasatiempos__lista, .habilidades__lista{
+        width: 768px;
+        height: 118px;
+        gap: 0px;
+        flex-wrap: wrap;
+        align-items: center;
+    margin-left: 0;}
+    .pasatiempo__iten, .habilidad__iten{
+        width: 224px;
+        height: 118px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:412px){
+    .pasatiempos-y-habilidades {
+        width: auto;
+        height: auto;
+    margin: 0;}
+    .habilidades {
+        width: auto;
+        height: auto;
+        
+    padding: 16px 0;margin-bottom: 113px;}
+
+    .habilidades__lista{
+        width: auto;
+        justify-content: center;
+        
+    }
+
+    .habilidad__iten{
+        width: 156px;
+        height: 118px;
+    align-items: center;/* margin: inherit; *//* gap: 14px; */}
+
+    .pasatiempos {
+        width: auto;
+        height: 508px;
+    position: relative;top: 16px;}
+
+    .pasatiempos__lista{
+        width: auto;
+        justify-content: center;
+    }
+
+    .pasatiempo__iten {
+        width: 156px;
+        height: 118px;
+        align-items: center;
+    }
+}
+   
